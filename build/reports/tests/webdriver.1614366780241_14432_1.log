@@ -1,0 +1,370 @@
+[1614366780.357][INFO]: Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 28021
+[1614366780.357][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1614366780.778][INFO]: [70966e8554937c7ad3603e47b349b92e] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\user\\Desktop\\secondProject\\Project-2\\build\\downloads\\1614366780240_14432_1",
+               "plugins.always_open_pdf_externally": true,
+               "profile.default_content_setting_values.automatic_downloads": 1
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\Users\\user\\Desktop\\secondProject\\Project-2\\build\\downloads\\1614366780240_14432_1",
+            "plugins.always_open_pdf_externally": true,
+            "profile.default_content_setting_values.automatic_downloads": 1
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1614366780.782][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\Users\\user\\Desktop\\secondProject\\Project-2\\build\\downloads\\1614366780240_14432_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "automatic_downloads": 1,
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1614366780.787][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1614366780.791][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-sandbox --no-service-autorun --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\user\AppData\Local\Temp\scoped_dir16084_1428573430" data:,
+[1614366781.476][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1614366781.480][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1614366781.489][INFO]: [70966e8554937c7ad3603e47b349b92e] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "88.0.4324.190",
+      "chrome": {
+         "chromedriverVersion": "88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784})",
+         "userDataDir": "C:\\Users\\user\\AppData\\Local\\Temp\\scoped_dir16084_1428573430"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:65198"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:largeBlob": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "70966e8554937c7ad3603e47b349b92e"
+}
+[1614366781.495][INFO]: [70966e8554937c7ad3603e47b349b92e] COMMAND MaximizeWindow {
+
+}
+[1614366781.495][INFO]: Waiting for pending navigations...
+[1614366781.497][INFO]: Done waiting for pending navigations. Status: ok
+[1614366781.622][INFO]: Waiting for pending navigations...
+[1614366781.623][INFO]: Done waiting for pending navigations. Status: ok
+[1614366781.623][INFO]: [70966e8554937c7ad3603e47b349b92e] RESPONSE MaximizeWindow {
+   "height": 744,
+   "width": 1382,
+   "x": -8,
+   "y": -8
+}
+[1614366781.658][INFO]: [70966e8554937c7ad3603e47b349b92e] COMMAND SetTimeouts {
+   "pageLoad": 30000
+}
+[1614366781.658][INFO]: [70966e8554937c7ad3603e47b349b92e] RESPONSE SetTimeouts
+[1614366781.662][INFO]: [70966e8554937c7ad3603e47b349b92e] COMMAND Navigate {
+   "url": "http://automationpractice.com/index.php"
+}
+[1614366781.662][INFO]: Waiting for pending navigations...
+[1614366781.689][INFO]: Done waiting for pending navigations. Status: ok
+[1614366783.402][INFO]: Waiting for pending navigations...
+[1614366784.631][INFO]: Done waiting for pending navigations. Status: disconnected: received Inspector.detached event
+[1614366784.638][INFO]: [70966e8554937c7ad3603e47b349b92e] RESPONSE Navigate
+[1614366784.643][INFO]: [70966e8554937c7ad3603e47b349b92e] COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"Best Sellers\"]/parent::*"
+}
+[1614366784.643][INFO]: [70966e8554937c7ad3603e47b349b92e] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=88.0.4324.190)
+[1614366784.862][INFO]: [70966e8554937c7ad3603e47b349b92e] COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"Best Sellers\"]/parent::*"
+}
+[1614366784.862][INFO]: [70966e8554937c7ad3603e47b349b92e] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=88.0.4324.190)
+[1614366785.080][INFO]: [70966e8554937c7ad3603e47b349b92e] COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"Best Sellers\"]/parent::*"
+}
+[1614366785.080][INFO]: [70966e8554937c7ad3603e47b349b92e] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=88.0.4324.190)
+[1614366785.285][INFO]: [70966e8554937c7ad3603e47b349b92e] COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"Best Sellers\"]/parent::*"
+}
+[1614366785.285][INFO]: [70966e8554937c7ad3603e47b349b92e] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=88.0.4324.190)
+[1614366785.503][INFO]: [70966e8554937c7ad3603e47b349b92e] COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"Best Sellers\"]/parent::*"
+}
+[1614366785.503][INFO]: [70966e8554937c7ad3603e47b349b92e] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=88.0.4324.190)
+[1614366785.707][INFO]: [70966e8554937c7ad3603e47b349b92e] COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"Best Sellers\"]/parent::*"
+}
+[1614366785.707][INFO]: [70966e8554937c7ad3603e47b349b92e] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=88.0.4324.190)
+[1614366785.912][INFO]: [70966e8554937c7ad3603e47b349b92e] COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"Best Sellers\"]/parent::*"
+}
+[1614366785.912][INFO]: [70966e8554937c7ad3603e47b349b92e] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=88.0.4324.190)
+[1614366786.118][INFO]: [70966e8554937c7ad3603e47b349b92e] COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"Best Sellers\"]/parent::*"
+}
+[1614366786.118][INFO]: [70966e8554937c7ad3603e47b349b92e] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=88.0.4324.190)
+[1614366786.335][INFO]: [70966e8554937c7ad3603e47b349b92e] COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"Best Sellers\"]/parent::*"
+}
+[1614366786.336][INFO]: [70966e8554937c7ad3603e47b349b92e] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=88.0.4324.190)
+[1614366786.542][INFO]: [70966e8554937c7ad3603e47b349b92e] COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"Best Sellers\"]/parent::*"
+}
+[1614366786.542][INFO]: [70966e8554937c7ad3603e47b349b92e] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=88.0.4324.190)
+[1614366786.747][INFO]: [70966e8554937c7ad3603e47b349b92e] COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"Best Sellers\"]/parent::*"
+}
+[1614366786.747][INFO]: [70966e8554937c7ad3603e47b349b92e] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=88.0.4324.190)
+[1614366786.951][INFO]: [70966e8554937c7ad3603e47b349b92e] COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"Best Sellers\"]/parent::*"
+}
+[1614366786.951][INFO]: [70966e8554937c7ad3603e47b349b92e] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=88.0.4324.190)
+[1614366787.170][INFO]: [70966e8554937c7ad3603e47b349b92e] COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"Best Sellers\"]/parent::*"
+}
+[1614366787.170][INFO]: [70966e8554937c7ad3603e47b349b92e] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=88.0.4324.190)
+[1614366787.384][INFO]: [70966e8554937c7ad3603e47b349b92e] COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"Best Sellers\"]/parent::*"
+}
+[1614366787.384][INFO]: [70966e8554937c7ad3603e47b349b92e] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=88.0.4324.190)
+[1614366787.589][INFO]: [70966e8554937c7ad3603e47b349b92e] COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"Best Sellers\"]/parent::*"
+}
+[1614366787.589][INFO]: [70966e8554937c7ad3603e47b349b92e] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=88.0.4324.190)
+[1614366787.803][INFO]: [70966e8554937c7ad3603e47b349b92e] COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"Best Sellers\"]/parent::*"
+}
+[1614366787.803][INFO]: [70966e8554937c7ad3603e47b349b92e] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=88.0.4324.190)
+[1614366788.008][INFO]: [70966e8554937c7ad3603e47b349b92e] COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"Best Sellers\"]/parent::*"
+}
+[1614366788.008][INFO]: [70966e8554937c7ad3603e47b349b92e] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=88.0.4324.190)
+[1614366788.225][INFO]: [70966e8554937c7ad3603e47b349b92e] COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"Best Sellers\"]/parent::*"
+}
+[1614366788.226][INFO]: [70966e8554937c7ad3603e47b349b92e] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=88.0.4324.190)
+[1614366788.431][INFO]: [70966e8554937c7ad3603e47b349b92e] COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"Best Sellers\"]/parent::*"
+}
+[1614366788.431][INFO]: [70966e8554937c7ad3603e47b349b92e] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=88.0.4324.190)
+[1614366788.638][INFO]: [70966e8554937c7ad3603e47b349b92e] COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"Best Sellers\"]/parent::*"
+}
+[1614366788.638][INFO]: [70966e8554937c7ad3603e47b349b92e] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=88.0.4324.190)
+[1614366788.843][INFO]: [70966e8554937c7ad3603e47b349b92e] COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"Best Sellers\"]/parent::*"
+}
+[1614366788.843][INFO]: [70966e8554937c7ad3603e47b349b92e] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=88.0.4324.190)
+[1614366789.048][INFO]: [70966e8554937c7ad3603e47b349b92e] COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"Best Sellers\"]/parent::*"
+}
+[1614366789.048][INFO]: [70966e8554937c7ad3603e47b349b92e] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=88.0.4324.190)
+[1614366789.254][INFO]: [70966e8554937c7ad3603e47b349b92e] COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"Best Sellers\"]/parent::*"
+}
+[1614366789.254][INFO]: [70966e8554937c7ad3603e47b349b92e] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=88.0.4324.190)
+[1614366789.460][INFO]: [70966e8554937c7ad3603e47b349b92e] COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"Best Sellers\"]/parent::*"
+}
+[1614366789.460][INFO]: [70966e8554937c7ad3603e47b349b92e] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=88.0.4324.190)
+[1614366789.667][INFO]: [70966e8554937c7ad3603e47b349b92e] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1614366789.667][INFO]: [70966e8554937c7ad3603e47b349b92e] RESPONSE ExecuteScript ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=88.0.4324.190)
+[1614366789.669][INFO]: [70966e8554937c7ad3603e47b349b92e] COMMAND Screenshot {
+
+}
+[1614366789.670][INFO]: [70966e8554937c7ad3603e47b349b92e] RESPONSE Screenshot ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=88.0.4324.190)
+[1614366789.673][INFO]: [70966e8554937c7ad3603e47b349b92e] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1614366789.673][INFO]: [70966e8554937c7ad3603e47b349b92e] RESPONSE ExecuteScript ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=88.0.4324.190)
+[1614366789.675][INFO]: [70966e8554937c7ad3603e47b349b92e] COMMAND Screenshot {
+
+}
+[1614366789.675][INFO]: [70966e8554937c7ad3603e47b349b92e] RESPONSE Screenshot ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=88.0.4324.190)
+[1614366789.702][INFO]: [70966e8554937c7ad3603e47b349b92e] COMMAND Quit {
+
+}
+[1614366789.702][INFO]: [70966e8554937c7ad3603e47b349b92e] RESPONSE Quit

@@ -1,0 +1,374 @@
+[1614066078.633][INFO]: Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 26328
+[1614066078.634][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1614066079.917][INFO]: [ad1b33e0a38d55d22ec777549d6d8465] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\user\\Desktop\\secondProject\\Project-2\\build\\downloads\\1614066076144_19328_1",
+               "plugins.always_open_pdf_externally": true,
+               "profile.default_content_setting_values.automatic_downloads": 1
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\Users\\user\\Desktop\\secondProject\\Project-2\\build\\downloads\\1614066076144_19328_1",
+            "plugins.always_open_pdf_externally": true,
+            "profile.default_content_setting_values.automatic_downloads": 1
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1614066079.927][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\Users\\user\\Desktop\\secondProject\\Project-2\\build\\downloads\\1614066076144_19328_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "automatic_downloads": 1,
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1614066079.948][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1614066079.957][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-sandbox --no-service-autorun --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\user\AppData\Local\Temp\scoped_dir17304_619438663" data:,
+[1614066081.289][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1614066081.296][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1614066081.529][INFO]: [ad1b33e0a38d55d22ec777549d6d8465] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "88.0.4324.182",
+      "chrome": {
+         "chromedriverVersion": "88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784})",
+         "userDataDir": "C:\\Users\\user\\AppData\\Local\\Temp\\scoped_dir17304_619438663"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:50695"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:largeBlob": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "ad1b33e0a38d55d22ec777549d6d8465"
+}
+[1614066081.761][INFO]: [ad1b33e0a38d55d22ec777549d6d8465] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1614066081.762][INFO]: Waiting for pending navigations...
+[1614066081.765][INFO]: Done waiting for pending navigations. Status: ok
+[1614066081.918][INFO]: Waiting for pending navigations...
+[1614066081.920][INFO]: Done waiting for pending navigations. Status: ok
+[1614066081.920][INFO]: [ad1b33e0a38d55d22ec777549d6d8465] RESPONSE SetWindowRect {
+   "height": 768,
+   "width": 1366,
+   "x": 10,
+   "y": 10
+}
+[1614066081.942][INFO]: [ad1b33e0a38d55d22ec777549d6d8465] COMMAND SetTimeouts {
+   "pageLoad": 30000
+}
+[1614066081.942][INFO]: [ad1b33e0a38d55d22ec777549d6d8465] RESPONSE SetTimeouts
+[1614066081.975][INFO]: [ad1b33e0a38d55d22ec777549d6d8465] COMMAND Navigate {
+   "url": "http://automationpractice.com/index.php"
+}
+[1614066081.975][INFO]: Waiting for pending navigations...
+[1614066081.982][INFO]: Done waiting for pending navigations. Status: ok
+[1614066082.711][INFO]: Waiting for pending navigations...
+[1614066082.757][INFO]: Done waiting for pending navigations. Status: ok
+[1614066082.757][INFO]: [ad1b33e0a38d55d22ec777549d6d8465] RESPONSE Navigate
+[1614066083.005][INFO]: [ad1b33e0a38d55d22ec777549d6d8465] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#email_create"
+}
+[1614066083.005][INFO]: Waiting for pending navigations...
+[1614066083.013][INFO]: Done waiting for pending navigations. Status: ok
+[1614066083.049][INFO]: Waiting for pending navigations...
+[1614066083.051][INFO]: Done waiting for pending navigations. Status: ok
+[1614066083.051][INFO]: [ad1b33e0a38d55d22ec777549d6d8465] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#email_create"}
+  (Session info: chrome=88.0.4324.182)
+[1614066083.305][INFO]: [ad1b33e0a38d55d22ec777549d6d8465] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#email_create"
+}
+[1614066083.305][INFO]: Waiting for pending navigations...
+[1614066083.307][INFO]: Done waiting for pending navigations. Status: ok
+[1614066083.319][INFO]: Waiting for pending navigations...
+[1614066083.320][INFO]: Done waiting for pending navigations. Status: ok
+[1614066083.320][INFO]: [ad1b33e0a38d55d22ec777549d6d8465] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#email_create"}
+  (Session info: chrome=88.0.4324.182)
+[1614066083.539][INFO]: [ad1b33e0a38d55d22ec777549d6d8465] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#email_create"
+}
+[1614066083.539][INFO]: Waiting for pending navigations...
+[1614066083.541][INFO]: Done waiting for pending navigations. Status: ok
+[1614066083.552][INFO]: Waiting for pending navigations...
+[1614066083.553][INFO]: Done waiting for pending navigations. Status: ok
+[1614066083.553][INFO]: [ad1b33e0a38d55d22ec777549d6d8465] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#email_create"}
+  (Session info: chrome=88.0.4324.182)
+[1614066083.769][INFO]: [ad1b33e0a38d55d22ec777549d6d8465] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#email_create"
+}
+[1614066083.769][INFO]: Waiting for pending navigations...
+[1614066083.770][INFO]: Done waiting for pending navigations. Status: ok
+[1614066083.783][INFO]: Waiting for pending navigations...
+[1614066083.784][INFO]: Done waiting for pending navigations. Status: ok
+[1614066083.784][INFO]: [ad1b33e0a38d55d22ec777549d6d8465] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#email_create"}
+  (Session info: chrome=88.0.4324.182)
+[1614066084.003][INFO]: [ad1b33e0a38d55d22ec777549d6d8465] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#email_create"
+}
+[1614066084.003][INFO]: Waiting for pending navigations...
+[1614066084.004][INFO]: Done waiting for pending navigations. Status: ok
+[1614066084.027][INFO]: Waiting for pending navigations...
+[1614066084.028][INFO]: Done waiting for pending navigations. Status: ok
+[1614066084.028][INFO]: [ad1b33e0a38d55d22ec777549d6d8465] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#email_create"}
+  (Session info: chrome=88.0.4324.182)
+[1614066084.247][INFO]: [ad1b33e0a38d55d22ec777549d6d8465] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#email_create"
+}
+[1614066084.247][INFO]: Waiting for pending navigations...
+[1614066084.249][INFO]: Done waiting for pending navigations. Status: ok
+[1614066084.260][INFO]: Waiting for pending navigations...
+[1614066084.261][INFO]: Done waiting for pending navigations. Status: ok
+[1614066084.261][INFO]: [ad1b33e0a38d55d22ec777549d6d8465] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#email_create"}
+  (Session info: chrome=88.0.4324.182)
+[1614066084.473][INFO]: [ad1b33e0a38d55d22ec777549d6d8465] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#email_create"
+}
+[1614066084.473][INFO]: Waiting for pending navigations...
+[1614066084.474][INFO]: Done waiting for pending navigations. Status: ok
+[1614066084.485][INFO]: Waiting for pending navigations...
+[1614066084.486][INFO]: Done waiting for pending navigations. Status: ok
+[1614066084.486][INFO]: [ad1b33e0a38d55d22ec777549d6d8465] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#email_create"}
+  (Session info: chrome=88.0.4324.182)
+[1614066084.698][INFO]: [ad1b33e0a38d55d22ec777549d6d8465] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#email_create"
+}
+[1614066084.699][INFO]: Waiting for pending navigations...
+[1614066084.700][INFO]: Done waiting for pending navigations. Status: ok
+[1614066084.714][INFO]: Waiting for pending navigations...
+[1614066084.716][INFO]: Done waiting for pending navigations. Status: ok
+[1614066084.716][INFO]: [ad1b33e0a38d55d22ec777549d6d8465] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#email_create"}
+  (Session info: chrome=88.0.4324.182)
+[1614066084.929][INFO]: [ad1b33e0a38d55d22ec777549d6d8465] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#email_create"
+}
+[1614066084.929][INFO]: Waiting for pending navigations...
+[1614066084.931][INFO]: Done waiting for pending navigations. Status: ok
+[1614066084.944][INFO]: Waiting for pending navigations...
+[1614066084.945][INFO]: Done waiting for pending navigations. Status: ok
+[1614066084.945][INFO]: [ad1b33e0a38d55d22ec777549d6d8465] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#email_create"}
+  (Session info: chrome=88.0.4324.182)
+[1614066085.156][INFO]: [ad1b33e0a38d55d22ec777549d6d8465] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#email_create"
+}
+[1614066085.156][INFO]: Waiting for pending navigations...
+[1614066085.157][INFO]: Done waiting for pending navigations. Status: ok
+[1614066085.169][INFO]: Waiting for pending navigations...
+[1614066085.170][INFO]: Done waiting for pending navigations. Status: ok
+[1614066085.170][INFO]: [ad1b33e0a38d55d22ec777549d6d8465] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#email_create"}
+  (Session info: chrome=88.0.4324.182)
+[1614066085.389][INFO]: [ad1b33e0a38d55d22ec777549d6d8465] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#email_create"
+}
+[1614066085.389][INFO]: Waiting for pending navigations...
+[1614066085.390][INFO]: Done waiting for pending navigations. Status: ok
+[1614066085.401][INFO]: Waiting for pending navigations...
+[1614066085.402][INFO]: Done waiting for pending navigations. Status: ok
+[1614066085.402][INFO]: [ad1b33e0a38d55d22ec777549d6d8465] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#email_create"}
+  (Session info: chrome=88.0.4324.182)
+[1614066085.612][INFO]: [ad1b33e0a38d55d22ec777549d6d8465] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#email_create"
+}
+[1614066085.613][INFO]: Waiting for pending navigations...
+[1614066085.614][INFO]: Done waiting for pending navigations. Status: ok
+[1614066085.625][INFO]: Waiting for pending navigations...
+[1614066085.626][INFO]: Done waiting for pending navigations. Status: ok
+[1614066085.626][INFO]: [ad1b33e0a38d55d22ec777549d6d8465] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#email_create"}
+  (Session info: chrome=88.0.4324.182)
+[1614066085.843][INFO]: [ad1b33e0a38d55d22ec777549d6d8465] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#email_create"
+}
+[1614066085.843][INFO]: Waiting for pending navigations...
+[1614066085.844][INFO]: Done waiting for pending navigations. Status: ok
+[1614066085.856][INFO]: Waiting for pending navigations...
+[1614066085.857][INFO]: Done waiting for pending navigations. Status: ok
+[1614066085.857][INFO]: [ad1b33e0a38d55d22ec777549d6d8465] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#email_create"}
+  (Session info: chrome=88.0.4324.182)
+[1614066086.067][INFO]: [ad1b33e0a38d55d22ec777549d6d8465] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#email_create"
+}
+[1614066086.067][INFO]: Waiting for pending navigations...
+[1614066086.068][INFO]: Done waiting for pending navigations. Status: ok
+[1614066086.079][INFO]: Waiting for pending navigations...
+[1614066086.080][INFO]: Done waiting for pending navigations. Status: ok
+[1614066086.080][INFO]: [ad1b33e0a38d55d22ec777549d6d8465] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#email_create"}
+  (Session info: chrome=88.0.4324.182)
+[1614066086.293][INFO]: [ad1b33e0a38d55d22ec777549d6d8465] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#email_create"
+}
+[1614066086.293][INFO]: Waiting for pending navigations...
+[1614066086.294][INFO]: Done waiting for pending navigations. Status: ok
+[1614066086.307][INFO]: Waiting for pending navigations...
+[1614066086.308][INFO]: Done waiting for pending navigations. Status: ok
+[1614066086.308][INFO]: [ad1b33e0a38d55d22ec777549d6d8465] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#email_create"}
+  (Session info: chrome=88.0.4324.182)
+[1614066086.517][INFO]: [ad1b33e0a38d55d22ec777549d6d8465] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#email_create"
+}
+[1614066086.517][INFO]: Waiting for pending navigations...
+[1614066086.519][INFO]: Done waiting for pending navigations. Status: ok
+[1614066086.529][INFO]: Waiting for pending navigations...
+[1614066086.530][INFO]: Done waiting for pending navigations. Status: ok
+[1614066086.530][INFO]: [ad1b33e0a38d55d22ec777549d6d8465] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#email_create"}
+  (Session info: chrome=88.0.4324.182)
+[1614066086.749][INFO]: [ad1b33e0a38d55d22ec777549d6d8465] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#email_create"
+}
+[1614066086.749][INFO]: Waiting for pending navigations...
+[1614066086.750][INFO]: Done waiting for pending navigations. Status: ok
+[1614066086.761][INFO]: Waiting for pending navigations...
+[1614066086.762][INFO]: Done waiting for pending navigations. Status: ok
+[1614066086.762][INFO]: [ad1b33e0a38d55d22ec777549d6d8465] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#email_create"}
+  (Session info: chrome=88.0.4324.182)
+[1614066086.982][INFO]: [ad1b33e0a38d55d22ec777549d6d8465] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#email_create"
+}
+[1614066086.982][INFO]: Waiting for pending navigations...
+[1614066086.984][INFO]: Done waiting for pending navigations. Status: ok
+[1614066086.995][INFO]: Waiting for pending navigations...
+[1614066086.996][INFO]: Done waiting for pending navigations. Status: ok
+[1614066086.996][INFO]: [ad1b33e0a38d55d22ec777549d6d8465] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#email_create"}
+  (Session info: chrome=88.0.4324.182)
+[1614066087.010][INFO]: [ad1b33e0a38d55d22ec777549d6d8465] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1614066087.010][INFO]: Waiting for pending navigations...
+[1614066087.011][INFO]: Done waiting for pending navigations. Status: ok
+[1614066087.018][INFO]: Waiting for pending navigations...
+[1614066087.019][INFO]: Done waiting for pending navigations. Status: ok
+[1614066087.019][INFO]: [ad1b33e0a38d55d22ec777549d6d8465] RESPONSE ExecuteScript "\u003Chtml>\u003Chead>\n\u003Ctitle> 508 Resource Limit Is Reached\u003C/title>\n\u003C/head>\u003Cbody>\n\u003Ch1>Resource Limit Is Reached\u003C/h1>\nThe website is temporarily unable to service your request as it exceeded resource limit.\n..."
+[1614066087.050][INFO]: [ad1b33e0a38d55d22ec777549d6d8465] COMMAND Screenshot {
+
+}
+[1614066087.050][INFO]: Waiting for pending navigations...
+[1614066087.051][INFO]: Done waiting for pending navigations. Status: ok
+[1614066087.375][INFO]: Waiting for pending navigations...
+[1614066087.376][INFO]: Done waiting for pending navigations. Status: ok
+[1614066087.376][INFO]: [ad1b33e0a38d55d22ec777549d6d8465] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABUYAAAKoCAYAAAC7qCUdAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3W9oXNe9L/yfHvrCgV7wgb4YQwpVSOE4NFCH+4BlyIso5EIceqAjHIhMDuS4p9DK50Jjt9ArJXBt6Rxo5RTa+BRy4hbuQWNIkMLtxS40RHmRi2Se82DlkmIXG..."
+[1614066087.917][INFO]: [ad1b33e0a38d55d22ec777549d6d8465] COMMAND Quit {
+
+}
+[1614066089.578][INFO]: [ad1b33e0a38d55d22ec777549d6d8465] RESPONSE Quit
