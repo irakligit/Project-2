@@ -1,19 +1,23 @@
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.logevents.SelenideLogger;
 import com.codeborne.selenide.testng.TextReport;
+import dataObjects.InsertData;
 import io.qameta.allure.*;
 import io.qameta.allure.selenide.AllureSelenide;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import pageObjects.*;
+import pageObjects.retryAnalizer.RetryAnalyzerPage;
+import pageObjects.retryAnalizer.RetryCountIfFailed;
 import java.sql.SQLException;
 import static com.codeborne.selenide.Selenide.*;
 
-@Epic("test")
+@Epic("project_2")
 @Feature("United Test")
 @Listeners({ TextReport.class})
-public class MainClass extends ScreenshotPage {
+
+public class MainClass extends InsertData {
 
     @BeforeTest(alwaysRun = true)
     public void setup() {
@@ -42,13 +46,13 @@ public class MainClass extends ScreenshotPage {
     EveningDress eveningDress = new EveningDress();
 
 
-    @Story("main test")
-    @Description("allure homework")
-    @Severity(SeverityLevel.CRITICAL)
+    @Story("The third and fourth tests depend on it")
+    @Description("create account")
     @Flaky
-    @Step("first_step")
-    @Test(groups= {"Resgression1","Resgression2"},priority = 1,alwaysRun = true)
-    public void first_method() throws SQLException, InterruptedException {
+    @Test(testName = "user_registration",
+            groups= {"Resgression1","Resgression2"},priority = 1,alwaysRun = true,
+            description = "main registration test")
+    public void first_method() throws SQLException {
         open("http://automationpractice.com/index.php");
         signUpPage.signUp();
         createAccPage.enterEmail();
@@ -58,11 +62,10 @@ public class MainClass extends ScreenshotPage {
 
     }
 
-    @Story("main test")
-    @Description("allure homework")
-    @Severity(SeverityLevel.CRITICAL)
-    @Step("second_step")
-    @Test(groups= {"Resgression1"},priority = 2,dataProvider = "dataMethod",alwaysRun = true)
+    @Story("Does not depend on any test")
+    @Description("Buy a dress that has a discount")
+    @Test(testName = "second test",groups= {"Resgression1"},priority = 2,dataProvider = "dataMethod",alwaysRun = true,
+            description = "Buy a dress that has a discount")
     public void secondTest(String name,String email){
         open("http://automationpractice.com/index.php");
         bestSellerPage.bestSellersBtn()
@@ -80,8 +83,10 @@ public class MainClass extends ScreenshotPage {
 
     }
 
-    @Test(groups= {"Resgression2"},priority = 3,dependsOnMethods = "first_method",alwaysRun = true)
-    @Step("failed_step")
+    @Story("Depending on the first test")
+    @Description("Buy a dress that has a discount")
+    @Test(testName = "third test",groups= {"Resgression2"},priority = 3,dependsOnMethods = "first_method",alwaysRun = true,
+    description = "sign in and buy a dress")
     public void thirdTest(){
         open("http://automationpractice.com/index.php");
         bestSellerPage.bestSellersBtn()
@@ -100,15 +105,19 @@ public class MainClass extends ScreenshotPage {
                 .fourthCheckoutBtn();
         paymentPage.bankWireBtn();
         orderPage.orderBtn();
+
         closeWebDriver();
+
 
     }
 
 
-
+    @Story("Depending on the first test")
+    @Description("last test")
     @RetryCountIfFailed(3)
-    @Test(priority = 4,dependsOnMethods = "first_method",retryAnalyzer=RetryAnalyzerPage.class,groups= {"Resgression2"},alwaysRun = true)
-    public void fourthTest() throws InterruptedException {
+    @Test(testName = "fourth test",priority = 4,dependsOnMethods = "first_method",retryAnalyzer= RetryAnalyzerPage.class,
+            groups= {"Resgression2"},alwaysRun = true,description = "Buy an evening dress")
+    public void fourthTest(){
         open("http://automationpractice.com/index.php");
         eveningDress.logoutBtn()
                 .clickDress();

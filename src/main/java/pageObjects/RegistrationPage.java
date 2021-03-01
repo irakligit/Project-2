@@ -1,12 +1,16 @@
 package pageObjects;
 import dataObjects.InsertData;
+import io.qameta.allure.Step;
+
 import java.sql.SQLException;
 import static com.codeborne.selenide.Selenide.$;
 public class RegistrationPage {
 
+    @Step("choose gender")
     public RegistrationPage gender(){ $("#id_gender1").click();
     return this;}
 
+    @Step("date of birth")
     public RegistrationPage dropdowns(){
         $("#days").selectOptionByValue("12");
         $("#months").selectOptionByValue("5");
@@ -14,6 +18,7 @@ public class RegistrationPage {
         return this;
     }
 
+    @Step("click submitAcc")
     public RegistrationPage submitAcc(){
         $("#other").scrollIntoView(true);
         $("#submitAccount").click();
@@ -21,6 +26,7 @@ public class RegistrationPage {
     }
 
 
+    @Step("sendKeys data")
     public RegistrationPage sql_data() throws SQLException {
 
         $("[id = 'customer_firstname']").sendKeys(InsertData.getFirstName_2());

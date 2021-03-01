@@ -1,15 +1,15 @@
 package pageObjects;
-
-
-
 import dataObjects.InsertData;
+import io.qameta.allure.Step;
 import org.openqa.selenium.WebElement;
 
 
 
 import static com.codeborne.selenide.Selenide.$x;
 
-public class CreateAccPage  {
+public class CreateAccPage {
+
+    @Step("SubmitCreate")
     public void enterEmail() {
 
         WebElement bla = $x("//*[contains(@name,'email_create')]");

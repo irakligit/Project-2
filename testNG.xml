@@ -14,7 +14,7 @@
         </run>
     </groups>
     <listeners>
-        <listener class-name="pageObjects.AnnotationTransformer" />
+        <listener class-name="pageObjects.retryAnalizer.AnnotationTransformer" />
     </listeners>
     <test name="Test">
         <classes>
