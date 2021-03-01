@@ -10,7 +10,7 @@ public class PopupPage extends DataProvider {
         return this;
     }
     public PopupPage email(String email){
-        $("#friend_email").sendKeys(Mail);
+        $("#friend_email").sendKeys(email);
         return this;
     }
     public PopupPage clickSendBtn(){

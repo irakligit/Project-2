@@ -8,8 +8,8 @@ public class DataProvider {
     public  Object[][] dataProviderMethod() {
         return new Object[][]
                 {
-                        { "irakli", "bla@gmail.com"},
-                        { "giorgi","ffaaa@gmail.com",},
+                        { "irakli", Mail},
+                        { "giorgi",Mail,},
                 };
     }
 }

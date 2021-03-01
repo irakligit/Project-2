@@ -1,11 +1,11 @@
 package pageObjects;
 import dataObjects.InsertData;
-import java.sql.SQLException;
+
 
 import static com.codeborne.selenide.Selenide.$;
 
 public class SignInPage   {
-    public SignInPage friendEmail() throws SQLException {
+    public SignInPage friendEmail()  {
 
 
         $("#email").sendKeys(InsertData.getEmail_2());
