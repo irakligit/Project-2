@@ -1,0 +1,3 @@
+user=TestAutomation123
+password=TestAutomation123
+url = jdbc:sqlserver://localhost:1433
